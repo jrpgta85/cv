@@ -3,6 +3,7 @@ body {
     color: #f2f7fc;
     font-family: 'Pirata One', sans-serif;
     text-align: center;
+    margin: 0;
 }
 
 .full-section {
@@ -153,6 +154,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 /* INTRODUCTION CARD */
 .card {
     margin: 0% 20%;
+    border: none;
 }
 
 .card-text {
@@ -194,7 +196,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 900px) {
     .name {
         font-size: 3.5rem;
     }
@@ -208,12 +210,19 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
         padding-bottom: 50%;
     }
     .raven-photo {
-        right: 25%;
+        right: 10%;
         top: -335px;
     }
     .skills-box{
         width: 75%;
         margin-bottom: 10%;
+    }
+    .skill-img {
+    left: 100px;
+    }
+    .card {
+    margin: 0;
+    padding-left: 5%
     }
 }
 
